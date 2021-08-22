@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Travel</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Discover</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Place</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- =================HOME================ -->
+        <section class="home" id="home">
+            <img src="./img/home1.jpg" alt="" class="home__img">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Discover your place</span>
+                    <h1 class="home__data-title">Explore The</br>Best Beautiful</br>Beaches</h1>
+                    <a href="#" class="button">Explore</a>
+                </div>
+                <div class="home__social">
+                    <a href="" class="home__social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="home__social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="home__social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- ==================ABOUT====================== -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="about__title">More Information</br>About The Best Beaches</h2>
+                    <p class="about__description">You can find the most beautiful and pleasant places at the best prices with special discounts, you choose the place we will guide you all the way to wait, get your place now.</p>
+                    <a href="#" class="button">Reserve a place</a>
+                </div>
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="./img/about1.jpg" alt="" class="about__img-one">
+                    </div>
+                    <div class="about__img-overlay">
+                        <img src="./img/about2.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =====================DISCOVER====================== -->
+        <section class="discover section" id="discover">
+            <h2 class="discover__title">Discover The Most</br>Attractive Places</h2>
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- =============IMG 1 ================= -->
+                    <div class="discover__card swiper-slide">
+                        <img src="./img/discover1.jpg" alt="" class="discover-img">
+                        <div class="discover__data">
+                            <h2 class="discover-title">Bali</h2>
+                            <span class="discover-description">24 tours available</span>
+                        </div>
+                    </div>
+                    <!-- =============IMG 2 ================= -->
+                    <div class="discover__card swiper-slide">
+                        <img src="./img/discover2.jpg" alt="" class="discover-img img2">
+                        <div class="discover__data">
+                            <h2 class="discover-title">Hawaii</h2>
+                            <span class="discover-description">15 tours available</span>
+                        </div>
+                    </div>
+                    <!-- =============IMG 3 ================= -->
+                    <div class="discover__card swiper-slide">
+                        <img src="./img/discover3.jpg" alt="" class="discover-img">
+                        <div class="discover__data">
+                            <h2 class="discover-title">Hvar</h2>
+                            <span class="discover-description">18 tours available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="experience section ">
+            <h2 class="experience__title">With Our Experience</br>We Will Serve You</h2>
+            <div class="experience__description container">
+                <div class="experience__data">
+                    <h3>20</h3>
+                    <p>Year Experience</p>
+                </div>
+                <div class="experience__data">
+                    <h3>75</h3>
+                    <p>Complete Tours</p>
+                </div>
+                <div class="experience__data">
+                    <h3>650+</h3>
+                    <p>Tourist Destination</p>
+                </div>
+            </div>
+            <div class="experience__container container">
+                <div class="overlay__experience">
+                    <img src="./img/experience1.jpg" alt="" class="img-experience">
+                </div>
+                <div class="overlay__experience">
+                    <img src="./img/experience2.jpg" alt="" class="img-experience">
+                </div>
+            </div>
+        </section>
+        <section class="video section">
+            <h2 class="video__title">Video Tour</h2>
+            <div class="video__container container">
+                <p class="video__description">Find out more with our video of the most beautiful and<br> pleasant places for you and your family.</p>
+                <div class="video__content">
+                    <video src="./video/video.mp4" id="videofile"></video>
+                    <button class="button-play">
+                        <i class="fas fa-play"></i>
+                        <i class="fas fa-pause active"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="place section" id="place">
+            <h2 class="place__title">Choose Your Place</h2>
+            <div class="place__imgs__container container">
+                <div class="overlay__img-place">
+                    <img src="./img/place1.jpg" alt="" class="img__place">
+                    <div class="place__rate">
+                        <i class="far fa-star"></i>
+                        <p class="place__rate-number">1</p>
+                    </div>
+                    <div class="place__description">
+                        <h2 class="place__name">Bali</h2>
+                        <p class="place__country">Indonesia</p>
+                        <h2 class="place__price">$2000</h2>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="overlay__img-place">
+                    <img src="./img/place2.jpg" alt="" class="img__place">
+                    <div class="place__rate">
+                        <i class="far fa-star"></i>
+                        <p class="place__rate-number">1</p>
+                    </div>
+                    <div class="place__description">
+                        <h2 class="place__name">Bora Bora</h2>
+                        <p class="place__country">Polinesia</p>
+                        <h2 class="place__price">$2000</h2>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="overlay__img-place">
+                    <img src="./img/place3.jpg" alt="" class="img__place">
+                    <div class="place__rate">
+                        <i class="far fa-star"></i>
+                        <p class="place__rate-number">1</p>
+                    </div>
+                    <div class="place__description">
+                        <h2 class="place__name">Hawaii</h2>
+                        <p class="place__country">EE.UU</p>
+                        <h2 class="place__price">$2000</h2>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="overlay__img-place">
+                    <img src="./img/place4.jpg" alt="" class="img__place">
+                    <div class="place__rate">
+                        <i class="far fa-star"></i>
+                        <p class="place__rate-number">1</p>
+                    </div>
+                    <div class="place__description">
+                        <h2 class="place__name">Whitehaven</h2>
+                        <p class="place__country">Australia</p>
+                        <h2 class="place__price">$2000</h2>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="overlay__img-place">
+                    <img src="./img/place5.jpg" alt="" class="img__place">
+                    <div class="place__rate">
+                        <i class="far fa-star"></i>
+                        <p class="place__rate-number">1</p>
+                    </div>
+                    <div class="place__description">
+                        <h2 class="place__name">Hvar</h2>
+                        <p class="place__country">Croacia</p>
+                        <h2 class="place__price">$2000</h2>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe__container container">
+            <div class="subscribe__content">
+                <h2 class="subscribe-title">Subscribe Our</br>Newsletter</h2>
+                <p class="subscribe-description">Subscribe to our newsletter and get a special 30% discount.</p>
+                <form action class="subscribe__form">
+                    <input type="text" placeholder="Enter Email" class="input__email">
+                    <button class="button__sub">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <section class="brand section">
+            <div class="brand__container container">
+                <div class="brand__content">
+                    <img src="./img/sponsors1.png" alt="" class="brand__img">
+                </div>
+                <div class="brand__content">
+                    <img src="./img/sponsors2.png" alt="" class="brand__img">
+                </div>
+                <div class="brand__content">
+                    <img src="./img/sponsors3.png" alt="" class="brand__img">
+                </div>
+                <div class="brand__content">
+                    <img src="./img/sponsors4.png" alt="" class="brand__img">
+                </div>
+                <div class="brand__content">
+                    <img src="./img/sponsors5.png" alt="" class="brand__img">
+                </div>
+            </div>
+        </section>
+        <section class="footer section">
+            <div class="footer__container container">
+                <div class="footer__content">
+                    <h2 class="footer-title">Travel</h2>
+                    <p class="footer__description">Travel you choose the destination, we offer you the experience.</p>
+                    <ul class="social__footer">
+                        <li class="social__item">
+                            <i class="fab fa-facebook"></i>
+                        </li>
+                        <li class="social__item">
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li class="social__item">
+                            <i class="fab fa-twitter"></i>
+                        </li>
+                        <li class="social__item">
+                            <i class="fab fa-youtube"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h2 class="footer-title">About</h2>
+                    <ul class="list-content">
+                        <li class="content-item">About us</li>
+                        <li class="content-item">Features</li>
+                        <li class="content-item">New & Blog</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h2 class="footer-title">Company</h2>
+                    <ul class="list-content">
+                        <li class="content-item">Team</li>
+                        <li class="content-item">Plan y Pricing</li>
+                        <li class="content-item">Become a member</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h2 class="footer-title">Support</h2>
+                    <ul class="list-content">
+                        <li class="content-item">FAQs</li>
+                        <li class="content-item">Support Center</li>
+                        <li class="content-item">Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- ==========Script=========== -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
